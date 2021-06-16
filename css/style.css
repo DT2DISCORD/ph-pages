@@ -580,7 +580,7 @@ ul.minicart .cart-content a:hover,
 .header-action > ul {
 	display: flex;
 	align-items: center;
-	margin-left: 20px;
+	margin-left: 5px;
 }
 .header-action > ul li {
 	position: relative;
@@ -894,7 +894,7 @@ ul.minicart .cart-price .new {
 }
 .t-header-top-area {
     background: transparent;
-    padding: 14px 0;
+    padding: 10px 0;
     border-bottom: 1px solid rgb(50 49 49 / .7);
 }
 .third-header-bg {
@@ -951,7 +951,7 @@ ul.minicart .cart-price .new {
 	z-index: 9;
 }
 .third-header-bg .navbar-wrap ul.left {
-    margin-left: 0;
+    margin-left: -40px;
     margin-right: auto;
 }
 .header-bottom-bg {
@@ -4918,7 +4918,7 @@ border: 5px solid #420408;
 }
 #loading-center{
 	width: 100%;
-	height: 100%;
+	height: 250px;
 	position: relative;
 }
 #loading-center-absolute {
@@ -4928,3 +4928,19 @@ border: 5px solid #420408;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+.container2 {
+    width: 100%;
+    height: 100%;
+		position:absolute;
+	left:0;
+	top:0;
+	z-index:2;
+	clip: rect(560,320,750,auto);
+}
+.iframe-class {
+    width: 100%;
+    height: 100%;
+    border: 0px solid red;
+    overflow: auto;
+}
+
