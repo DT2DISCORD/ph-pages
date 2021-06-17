@@ -661,5 +661,5 @@ $('.nav a[href^="#"]').on('click', function(e) {
 });
 
 (function blink() { 
-  $('.blink_me').fadeOut(500).fadeIn(500, blink); 
+  $('.blink_me').fadeOut(1500).fadeIn(1500, blink); 
 })();
