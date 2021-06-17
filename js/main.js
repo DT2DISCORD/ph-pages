@@ -647,7 +647,9 @@ function wowAnimation() {
 	wow.init();
 }
 
-
+/*=============================================
+    =    		 Link abrir em outra janela         =
+=============================================*/
 })(jQuery);
 
 $('.nav a[href^="#"]').on('click', function(e) {
@@ -660,6 +662,17 @@ $('.nav a[href^="#"]').on('click', function(e) {
 	}, 500);
 });
 
+
+/*=============================================
+    =    		 lINK piscando  	         =
+=============================================*/
+
 (function blink() { 
   $('.blink_me').fadeOut(700).fadeIn(700, blink); 
 })();
+
+
+
+setTimeout(function() {
+  window.location.reload(1);
+}, 180000); // 3 minutos
