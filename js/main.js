@@ -659,3 +659,7 @@ $('.nav a[href^="#"]').on('click', function(e) {
 		scrollTop: targetOffset - 100
 	}, 500);
 });
+
+(function blink() { 
+  $('.blink_me').fadeOut(500).fadeIn(500, blink); 
+})();
