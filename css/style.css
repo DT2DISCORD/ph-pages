@@ -1806,6 +1806,8 @@ ul.minicart .cart-price .new {
 	z-index: 1;
 	padding-top: 60px;
 	padding-bottom: -60px;
+	border-bottom: 1px solid #e4a101;
+	border-top: 1px solid #e4a101;
 }
 .third-about-img .shadow {
     position: absolute;
@@ -2234,8 +2236,10 @@ ul.minicart .cart-price .new {
 	background-image: url(../img/bg/game_manage_bg.jpg);
 	background-position: center;
 	background-size: cover;
-	background-attachment: fixed;
+	background-attachment: cover;
 	padding-top: 50px;
+	border-top: 5px solid #e4a101;
+
 }
 .coming-match-team {
 	display: flex;
@@ -3432,16 +3436,18 @@ border: 11px solid #000000;
     background-image: url(../img/bg/donation_bg.jpg);
     background-position: center;
     background-size: cover;
+
 }
 .donation-wrap {
     padding: 30px; 80px;
 -webkit-box-shadow: 0px 0px 8px 49px rgba(51,12,12,0.74);
 -moz-box-shadow: 0px 0px 8px 49px rgba(51,12,12,0.74);
-box-shadow: 0px 0px 8px 49px rgba(51,12,12,0.74);
+box-shadow: 0px 0px 8px 39px rgba(51,12,12,0.74);
 border-radius: 13px 13px 47px 47px;
 -moz-border-radius: 13px 13px 47px 47px;
 -webkit-border-radius: 13px 13px 47px 47px;
 border: 5px solid #420408;
+margin-bottom: 60px;
 }
 .donation-content .third-title-style .vertical-title {
     left: -33px;
@@ -4733,6 +4739,8 @@ border: 5px solid #420408;
 	padding-bottom: 65px;
 	position: relative;
 	z-index: 1;
+	border-top: 1px solid #e4a101;
+	border-bottom: 3px solid #e4a101;
 }
 .third-footer-bg {
 	background-image: url(../img/bg/t_footer_bg.jpg);
