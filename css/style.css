@@ -1798,6 +1798,7 @@ ul.minicart .cart-price .new {
 	z-index: -1;
 }
 .third-about-bg {
+
     background-image: url(../img/bg/third_about_bg.jpg);
     background-position: center;
 	background-size: cover;
@@ -1824,11 +1825,12 @@ ul.minicart .cart-price .new {
     line-height: 1;
 	margin-bottom: 17px;
 	letter-spacing: -1px;
+
 }
 .third-title-style .inner {
     padding-left: 45px;
     position: relative;
-    margin-bottom: 45px;
+
 }
 .third-title-style .vertical-title {
     font-family: 'grinddemolished';
@@ -1837,7 +1839,7 @@ ul.minicart .cart-price .new {
     font-size: 16px;
     position: absolute;
     transform: rotate(-90deg);
-    left: -50px;
+    left: -25px;
     margin-bottom: 0;
     top: 65px;
 }
@@ -1849,11 +1851,14 @@ ul.minicart .cart-price .new {
     text-align: center;
 }
 .third-section-title h2 {
+	margin-top: -100px;
+	z-index: 1;
     font-size: 40px;
     text-transform: uppercase;
     font-family: 'grinddemolished';
     font-weight: normal;
     margin-bottom: 0;
+
 }
 .third-section-title h2 span {
 	color: #ab1a17;
@@ -1861,6 +1866,7 @@ ul.minicart .cart-price .new {
 .third-section-title {
     padding-bottom: 25px;
     position: relative;
+	padding-top: -0px;
 }
 .third-section-title::after {
     content: "";
@@ -1874,6 +1880,7 @@ ul.minicart .cart-price .new {
     margin: 0 auto;
 }
 .my-info-box {
+	margin-bottom: 150px;
     text-align: center;
     background: #18191f;
     box-shadow: 0px 3px 24px 0px rgba(55, 17, 2, 0.52);
@@ -4572,7 +4579,7 @@ margin-bottom: 60px;
 	padding: 120px 0;
 }
 .third-title-style ul li + li {
-    margin-top: 10px;
+	margin-bottom: 50px;
 }
 .third-title-style ul li {
 	font-size: 14px;
