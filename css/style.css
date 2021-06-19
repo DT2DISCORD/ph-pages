@@ -1999,6 +1999,7 @@ ul.minicart .cart-price .new {
 }
 .live-match-wrap {
 	position: relative;
+
 }
 .live-match-wrap > img {
     max-width: 100%;
@@ -2018,7 +2019,7 @@ ul.minicart .cart-price .new {
     background: #e8a301;
     color: #fff;
     text-transform: uppercase;
-    padding: 4px 20px;
+    padding: 30px 20px;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -2026,13 +2027,15 @@ ul.minicart .cart-price .new {
 }
 .live-match-time .time {
     font-size: 70px;
-    color: #1c1121;
+    color: #e8a301;
     line-height: 1;
-    margin-bottom: 0;
-    font-family: 'Poppins', sans-serif;
-    padding: 0 50px;
+	font-family: 'Poppins', sans-serif;
+    padding: 80px 50px;
     display: inline-block;
     position: relative;
+	right: 40px;
+	
+	
 }
 .live-match-time .time::before,
 .live-match-time .time::after {
@@ -2046,6 +2049,7 @@ ul.minicart .cart-price .new {
     background: #d3d1d1;
 }
 .live-match-time .time::after {
+	
 	right: -50px;
 	left: auto;
 }
@@ -2065,6 +2069,10 @@ ul.minicart .cart-price .new {
 }
 .live-match-team {
 	position: relative;
+		margin-bottom: -90px;
+		margin-top: -120px;
+		margin-left 130px;
+		right: 20px;
 }
 .live-match-team::before {
     content: "";
@@ -2082,6 +2090,9 @@ ul.minicart .cart-price .new {
 }
 .live-match-team.right {
     text-align: right;
+	    z-index: 1000;
+		padding-right 130px;
+
 }
 
 /* 9. Game Released */
