@@ -1,0 +1,38 @@
+                <section class="live-match-area fix pt-120 pb-110">
+                    <div class="container custom-container-two">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="live-match-team">
+                                    <img src="img/team/live_match_logo01.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="live-match-time text-center">
+                                    <a href="https://discord.com/channels/751008780145131591/855945387255922699/856182310403964949" class="animated-button2">
+  <span><h6>Registro Obrigatorio</h6></span>
+  <span></span>
+  <span></span>
+  <span></span>
+<h1> Registre-se no evento !!</h1>
+</a>
+
+  <div class="coming-match-time">
+                                    <div class="coming-time" data-countdown="2021/7/12"></div>
+                                    
+                                </div>
+
+                                    <h2 class="time">12/07/21</h2>
+									
+									
+                                    <h2 class="live-overlay-text">live</h2>
+                                </div>
+                            </div>
+							
+                            <div class="col-lg-4">
+                                <div class="live-match-team right">
+                                    <img src="img/team/live_match_logo02.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>

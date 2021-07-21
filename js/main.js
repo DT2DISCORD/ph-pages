@@ -676,3 +676,8 @@ $('.nav a[href^="#"]').on('click', function(e) {
 setTimeout(function() {
   window.location.reload(1);
 }, 180000); // 3 minutos
+
+var myApp = angular.module("myApp", []);
+myApp.controller("RegisterCtrl", function ($scope) {
+
+});
